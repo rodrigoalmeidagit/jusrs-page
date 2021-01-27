@@ -2,14 +2,15 @@ body, ul, li, p {
     margin: auto;
     padding: 0px;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
+    max-width: 1250px;
 }
 
 a {
     text-decoration: none;
-    color: #cd9349;
+    color: #bb6f0d;
 }
 
 .header {
@@ -33,3 +34,57 @@ a {
     display: block;
     padding: 10px;    
 }
+
+.section {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    max-height: 600px;
+}
+.section img {
+    max-width: 100%;    
+}
+
+.section1 {
+    background:#2b2b2b;
+    height: 250px;
+}
+
+.section2 {
+    background:white;
+    height: 250px;
+
+}
+.section3 {
+    background: #eeeeee;
+    height: 250px;
+
+}
+
+.teste {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    color: #cd9349;
+    background: #2b2b2b;
+    height: 80px;
+    align-items: center;
+}
+
+.teste2 {
+    justify-items: right;
+}
+/* .empresa {
+    display: flex;
+    margin-top: 5px;
+    color: #cd9349;
+    background: #2b2b2b;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80px;    
+} */
+
+
+
+
+
