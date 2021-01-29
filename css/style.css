@@ -1,10 +1,11 @@
+/* Basic reset */
 body, ul, li, p {
     margin: auto;
     padding: 0px;
     list-style: none;
     font-size: 1.1rem;
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Belleza', sans-serif;
     max-width: 1250px;
 }
 
@@ -13,6 +14,7 @@ a {
     color: #bb6f0d;
 }
 
+/* 1 / 7 */
 .header {
     background: #2b2b2b;
     display: flex;
@@ -35,44 +37,55 @@ a {
     padding: 10px;    
 }
 
-.section {
+/* 2 / 7 */
+.main-image {
     margin-top: 5px;
     display: flex;
     justify-content: center;
     max-height: 400px;
 }
-.section img {
+.main-image img {
     max-width: 100%;    
 }
 
-.main-services {
+/* 3 / 7 */
+.about {
+    height: 250px;
+    display: flex;
+    background:white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 4 / 7 */
+.services {
     background:#2b2b2b;
     height: 250px;
     color: #cd9349;        
 }
 
-.main-services h2 {
+.services h2 {
     display: flex;
     justify-items: center;
 }
 
-.services {
-    display: flex;
-
-}
-
-.vantages {
+/* 5 / 7 */
+.advantages {
     background:white;
     height: 250px;
 
 }
-.section3 {
+
+/* 6 / 7 */
+.contact {
     background: #eeeeee;
     height: 250px;
 
 }
 
-.main-address {
+/* 7 / 7 */
+.footer {
     display: flex;
     justify-content: space-around;
     margin-top: 5px;
@@ -81,23 +94,3 @@ a {
     height: 80px;
     align-items: center;
 }
-
-.phone {
-    justify-items: right;
-}
-/* .empresa {
-    display: flex;
-    margin-top: 5px;
-    color: #cd9349;
-    background: #2b2b2b;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 80px;    
-} */
-
-.social-media {
-    color: #cd9349;
-}
-
-
-
