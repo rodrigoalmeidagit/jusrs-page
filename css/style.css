@@ -63,7 +63,7 @@
 .contact {
     background: #eeeeee;
     height: 300px;
-
+    display: flex;
 }
 
 /* 7 / 7 */
