@@ -57,14 +57,33 @@
 .advantages {
     background:white;
     height: 300px;
+    display: flex;
 }
 
 /* 6 / 7 */
 .contact {
+    display: flex;
     background: #eeeeee;
     height: 300px;
-    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.contact div p:first-child{
+    margin-bottom: 10px;
+}
+
+.contact div legend{
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /* 7 / 7 */
 .footer {
